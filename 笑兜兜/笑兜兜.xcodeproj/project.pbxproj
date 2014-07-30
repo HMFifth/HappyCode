@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2045B40E19890C7A00030114 /* HPImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2045B40D19890C7A00030114 /* HPImageController.m */; };
 		B4377EDF1988D11B0037BC69 /* HPView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4377EDE1988D11B0037BC69 /* HPView.m */; };
 		F5759F08198891F700FF8C3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5759F07198891F700FF8C3C /* Foundation.framework */; };
 		F5759F0A198891F700FF8C3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5759F09198891F700FF8C3C /* CoreGraphics.framework */; };
@@ -18,7 +19,6 @@
 		F5759F29198891F700FF8C3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5759F0B198891F700FF8C3C /* UIKit.framework */; };
 		F5759F31198891F700FF8C3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5759F2F198891F700FF8C3C /* InfoPlist.strings */; };
 		F5759F33198891F700FF8C3C /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5759F32198891F700FF8C3C /* ___Tests.m */; };
-		F5759F691988928700FF8C3C /* HPImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5759F401988928700FF8C3C /* HPImageController.m */; };
 		F5759F6A1988928700FF8C3C /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F5759F461988928700FF8C3C /* UIBarButtonItem+Extension.m */; };
 		F5759F6B1988928700FF8C3C /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F5759F481988928700FF8C3C /* UIImage+Extension.m */; };
 		F5759F6C1988928700FF8C3C /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F5759F4A1988928700FF8C3C /* UIView+Extension.m */; };
@@ -42,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2045B40C19890C7A00030114 /* HPImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPImageController.h; sourceTree = "<group>"; };
+		2045B40D19890C7A00030114 /* HPImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPImageController.m; sourceTree = "<group>"; };
 		B4377EDD1988D11B0037BC69 /* HPView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPView.h; sourceTree = "<group>"; };
 		B4377EDE1988D11B0037BC69 /* HPView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPView.m; sourceTree = "<group>"; };
 		F5759F04198891F700FF8C3C /* 笑兜兜.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "笑兜兜.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,8 +59,6 @@
 		F5759F2E198891F700FF8C3C /* 笑兜兜Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "笑兜兜Tests-Info.plist"; sourceTree = "<group>"; };
 		F5759F30198891F700FF8C3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5759F32198891F700FF8C3C /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
-		F5759F3F1988928700FF8C3C /* HPImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPImageController.h; sourceTree = "<group>"; };
-		F5759F401988928700FF8C3C /* HPImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPImageController.m; sourceTree = "<group>"; };
 		F5759F451988928700FF8C3C /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
 		F5759F461988928700FF8C3C /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		F5759F471988928700FF8C3C /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
@@ -188,8 +188,6 @@
 			isa = PBXGroup;
 			children = (
 				F5759F3E1988928700FF8C3C /* Controller */,
-				F5759F3F1988928700FF8C3C /* HPImageController.h */,
-				F5759F401988928700FF8C3C /* HPImageController.m */,
 				F5759F411988928700FF8C3C /* Model */,
 				F5759F421988928700FF8C3C /* View */,
 			);
@@ -199,6 +197,8 @@
 		F5759F3E1988928700FF8C3C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2045B40C19890C7A00030114 /* HPImageController.h */,
+				2045B40D19890C7A00030114 /* HPImageController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -488,11 +488,11 @@
 				F5759F6C1988928700FF8C3C /* UIView+Extension.m in Sources */,
 				F5759F6B1988928700FF8C3C /* UIImage+Extension.m in Sources */,
 				F5759F6A1988928700FF8C3C /* UIBarButtonItem+Extension.m in Sources */,
+				2045B40E19890C7A00030114 /* HPImageController.m in Sources */,
 				F5759F711988928700FF8C3C /* HPTextController.m in Sources */,
 				B4377EDF1988D11B0037BC69 /* HPView.m in Sources */,
 				F5759F731988928700FF8C3C /* HPVoiceController.m in Sources */,
 				F5759F6D1988928700FF8C3C /* HPMainController.m in Sources */,
-				F5759F691988928700FF8C3C /* HPImageController.m in Sources */,
 				F5759F6E1988928700FF8C3C /* HPNavigationController.m in Sources */,
 				F5759F6F1988928700FF8C3C /* HPAppDelegate.m in Sources */,
 			);
