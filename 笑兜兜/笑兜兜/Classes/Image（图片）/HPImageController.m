@@ -21,6 +21,7 @@
         // Custom initialization
         
         NSLog(@"test1233");
+        NSLog(@"test4");
     }
     return self;
 
