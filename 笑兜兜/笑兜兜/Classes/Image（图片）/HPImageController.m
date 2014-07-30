@@ -33,11 +33,16 @@
         
     // 设置导航栏按钮
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImageName:@"navigationbar_friendsearch" highImageName:@"navigationbar_friendsearch_highlighted" target:self action:@selector(friendSearch)];
+    
 }
     
 - (void)friendSearch
 {
         NSLog(@"more---");
+    
+    NSLog(@"stettt");
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
