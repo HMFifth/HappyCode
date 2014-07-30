@@ -19,6 +19,8 @@
     self = [super initWithStyle:style];
     if (self) {
         // Custom initialization
+        
+        NSLog(@"jajah");
     }
     return self;
     
