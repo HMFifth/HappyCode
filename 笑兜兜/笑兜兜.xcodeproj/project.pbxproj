@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4377EDC1988CE3A0037BC69 /* HPTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4377EDB1988CE3A0037BC69 /* HPTableViewController.m */; };
 		F5759F08198891F700FF8C3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5759F07198891F700FF8C3C /* Foundation.framework */; };
 		F5759F0A198891F700FF8C3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5759F09198891F700FF8C3C /* CoreGraphics.framework */; };
 		F5759F0C198891F700FF8C3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5759F0B198891F700FF8C3C /* UIKit.framework */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B4377EDA1988CE3A0037BC69 /* HPTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTableViewController.h; sourceTree = "<group>"; };
+		B4377EDB1988CE3A0037BC69 /* HPTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPTableViewController.m; sourceTree = "<group>"; };
 		F5759F04198891F700FF8C3C /* 笑兜兜.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "笑兜兜.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5759F07198891F700FF8C3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F5759F09198891F700FF8C3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -363,6 +366,8 @@
 			children = (
 				F5759F651988928700FF8C3C /* HPVoiceController.h */,
 				F5759F661988928700FF8C3C /* HPVoiceController.m */,
+				B4377EDA1988CE3A0037BC69 /* HPTableViewController.h */,
+				B4377EDB1988CE3A0037BC69 /* HPTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -479,6 +484,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5759F701988928700FF8C3C /* main.m in Sources */,
+				B4377EDC1988CE3A0037BC69 /* HPTableViewController.m in Sources */,
 				F5759F721988928700FF8C3C /* HPVideoController.m in Sources */,
 				F5759F6C1988928700FF8C3C /* UIView+Extension.m in Sources */,
 				F5759F6B1988928700FF8C3C /* UIImage+Extension.m in Sources */,

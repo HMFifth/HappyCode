@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6387B6E9-2BA1-4AAA-A806-75BDD2C57D02</string>
+	<key>IDESourceControlProjectName</key>
+	<string>笑兜兜</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EE913A9C-C4AE-4BBC-8EF8-4D3EBF687AAB</key>
+		<string>https://github.com/HMFifth/HappyCode.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>笑兜兜/笑兜兜.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EE913A9C-C4AE-4BBC-8EF8-4D3EBF687AAB</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/HMFifth/HappyCode.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EE913A9C-C4AE-4BBC-8EF8-4D3EBF687AAB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EE913A9C-C4AE-4BBC-8EF8-4D3EBF687AAB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HappyCode</string>
+		</dict>
+	</array>
+</dict>
+</plist>
