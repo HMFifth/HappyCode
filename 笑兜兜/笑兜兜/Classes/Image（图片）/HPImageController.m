@@ -20,12 +20,10 @@
     if (self) {
         // Custom initialization
         
-        NSLog(@"jajah");
         NSLog(@"test1233");
     }
     return self;
-    
-    
+
 }
 
 - (void)viewDidLoad
@@ -76,4 +74,5 @@
     newVc.title = @"新控制器";
     [self.navigationController pushViewController:newVc animated:YES];
 }
+    
 @end
