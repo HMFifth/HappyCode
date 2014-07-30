@@ -46,7 +46,7 @@
  */
 - (void)addOneChlildVc:(UIViewController *)childVc title:(NSString *)title imageName:(NSString *)imageName selectedImageName:(NSString *)selectedImageName
 {
-    childVc.view.backgroundColor = HPRandomColor;
+    childVc.view.backgroundColor = [UIColor whiteColor];
     // 设置标题
     childVc.title = title;
     
